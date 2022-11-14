@@ -1,0 +1,87 @@
+.aboutSec {
+    padding-top: 120px;
+    padding-bottom: 100px;
+
+}
+
+.itemDesc {
+    padding-top: 150px;
+}
+
+.mainTitle {
+    color: #FFB606;
+    font-size: 28px;
+    font-family: "AcuminPro";
+}
+
+.title {
+    margin-top: 48px;
+    font-size: 42px;
+    font-family: "AcuminPro";
+    font-weight: bold;
+}
+
+.desc {
+    margin-top: 28px;
+    font-size: 18px;
+    line-height: 1.8;
+    font-family: "AcuminPro";
+}
+
+.itemImg {
+    overflow: hidden;
+}
+
+.imgs {
+    object-fit: cover;
+}
+
+@media (max-width: 575px) {
+    .aboutSec
+    {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+    .title {
+        font-size: 30px;
+    }
+
+    .desc {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 991px) {
+    .img {
+        order:122 !important
+    }
+
+    .imgDesc {
+        order:0 !important
+
+    }
+
+    .itemDesc {
+        padding-top: 50px;
+    }
+
+    .imgs {
+        margin-top: 20px;
+        width: 60% !important;
+    }
+
+    .title {
+        margin-top: 10px;
+
+    }
+
+    .desc {
+        margin-top: 14px;
+
+    }
+    .aboutSec {
+        
+        padding-bottom: 10px;
+    
+    }
+}
